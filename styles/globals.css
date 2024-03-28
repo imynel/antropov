@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Gramatika;
+  src: url(/fonts/GramatikaBold.woff);
+}
+
+* {
+  cursor: none !important;
+}
+
+html, body, h1, a {
+  padding: 0;
+  margin: 0;
+  font-family: Gramatika;
+  font-size: 2vw;
+  color: #da3832;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  margin-left: 2vw;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+}

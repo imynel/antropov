@@ -1,0 +1,28 @@
+{
+  "name": "kebabov",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "child_process": "^1.0.2",
+    "lottie-web": "^5.9.6",
+    "next": "^14.1.3",
+    "react": "^18.0.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "18.2.0",
+    "react-lottie": "^1.2.3",
+    "react-lottie-segments": "^1.4.9",
+    "react-svg-cursor": "^2.5.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
